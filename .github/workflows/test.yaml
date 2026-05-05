@@ -1,7 +1,7 @@
 name: Test
 on:
   push:
-    branches: [ main, master, feat/vp/TL-20-HW ]
+    branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
 jobs:
