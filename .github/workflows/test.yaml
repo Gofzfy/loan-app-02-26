@@ -1,8 +1,7 @@
 name: Test
 on:
-  workflow_dispatch:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, feat/vp/TL-20-HW ]
   pull_request:
     branches: [ main, master ]
 jobs:
