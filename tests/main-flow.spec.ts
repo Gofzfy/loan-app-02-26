@@ -68,3 +68,4 @@ test('Critical path', async ({ page }) => {
     await expect(page.getByTestId("final-page-continue-button")).toBeVisible()
 })
 
+// await page.waitforTimeout(3000)
