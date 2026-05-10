@@ -52,7 +52,7 @@ export default defineConfig({
     /* Test against mobile viewports. */
     {
       name: 'Mobile Chrome',
-      use: { ...devices['iPhone 14 Pro Max'] },
+      use: { ...devices['Galaxy S24'] },
     },
     // {
     //   name: 'Mobile Safari',
