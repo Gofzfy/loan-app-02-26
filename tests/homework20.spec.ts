@@ -3,6 +3,7 @@ import {LoanCalcPage} from "../pom/pages/LoanCalcPage";
 import {LoanDetailsPage} from "../pom/pages/LoanDetailsPage";
 
 
+
 test('Main flow test', async ({ page }) => {
     const loanCalcPage = new LoanCalcPage(page);
     const loanDetailsPage = new LoanDetailsPage(page);
