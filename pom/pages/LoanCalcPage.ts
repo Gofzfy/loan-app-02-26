@@ -77,4 +77,8 @@ export class LoanCalcPage {
     async checkError(visible: boolean = true): Promise<void> {
         await expect(this.invalidInputError).toBeVisible({visible});
     }
+
+    async monthlyPaymentValidation(amount: string): Promise<void> {
+        expect((await this.monthlyPaymentAmount.innerText()).split(' ')[0]).toBe(amount)
+    }
 }
