@@ -22,4 +22,6 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
+        env:
+          URL: ${{ secrets.URL }}
         run: npx playwright test
